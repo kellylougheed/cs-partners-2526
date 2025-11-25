@@ -1,0 +1,94 @@
+body {
+  font-family: 'Abril Fatface', cursive;
+  background-color: #fafafa;
+  color: #333333;
+  margin: 20px;
+  letter-spacing: 1px;
+}
+
+h1, label, select, button, #pairs {
+  letter-spacing: 1px;
+}
+
+h1 {
+  text-align: center;
+  color: #4b0082;
+}
+
+.centered {
+  text-align: center;
+  margin: 20px 0;
+}
+
+select {
+  font-family: 'Abril Fatface', cursive;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+select:focus {
+  outline: none;
+  border: 1px solid #4b0082;
+}
+
+#studentList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.student-item {
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  accent-color: #4b0082;
+  margin-right: 8px;
+}
+
+button {
+  background-color: #4b0082;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 18px;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #360062;
+}
+
+#pairs {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border: 2px solid #4b0082;
+  line-height: 40px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+
+#pairs div {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+}
